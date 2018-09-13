@@ -1,7 +1,7 @@
 import React from 'react';
 import App from '../App';
+import { shallow } from 'enzyme';
 
 test('renders without error', () => {
-    const div = document.createElement('div');
-   
+    const wrapper = shallow(<App/>);
 })
